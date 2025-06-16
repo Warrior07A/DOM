@@ -1,0 +1,57 @@
+#body{
+    background-color: black;
+    color: white;
+}
+
+
+#bodyy{
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#backbox{
+    background-color: rgba(128, 128, 128, 0.306);
+    width: 50%;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius : 50px;
+    margin-top: 5px;
+    padding-bottom: 0%;
+    border-bottom: 0cap;
+    flex-direction: column;
+}
+
+#backbox h1{
+    font-size: 100px;
+    margin-bottom: 65%;
+    padding-bottom: 100px;
+
+}
+#head{
+        align-items: center; 
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        
+        font-size: 50px;
+    }
+
+/* #buttonss{
+    padding:10px; 
+    margin:10px;
+    padding-left: 450px;
+}
+
+#otherbox{
+    margin:50px;
+}
+
+#badabhai{
+    padding-left:375px;
+} */
