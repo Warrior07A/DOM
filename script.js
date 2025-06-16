@@ -43,15 +43,16 @@
         const span = document.createElement("span");
         const h3 = document.createElement("h3"); 
         const button = document.createElement("button");
+        h3.style.color="white";
         h3.innerHTML = todo.title;
+        
         button.innerHTML = "Delete";
-        button.style.marginLeft = "100px";
+        button.style.marginLeft = "10px";
         button.onclick = function() {
             DELETET(INDEX);
         };
         // h3.style.paddingLeft = "400px";
-        h3.style.textAlign="center";
-        span.style.height 
+        h3.style.textAlign="left";
         span.append(h3);
         span.append(button);
         return span;
