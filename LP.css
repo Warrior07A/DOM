@@ -87,12 +87,13 @@ body{
         width: 150px;
         height:50px;
         border-radius: 20px;
-        transition: width 3s ,height 3s,background-color 3s, font-size 4s;
+        transition: width 3s ,height 3s,background-color 3s, font-size 4s,color 3s;
     }
     #last:hover{
         background-color:green;
         font-size: 30px;
         width: 210px;
         height: 100px;
+        color:white;
         
     }
