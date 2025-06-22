@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+            STOPWATCH
+        </title>
+    </head>
+    <style>
+        body{
+            border: 20px groove black;
+        }
+        #timer{
+            display: flex;
+            justify-content: center;
+        }
+        #one{
+            width:500px;
+            height:200px;
+            background-color: aqua;
+            font-size: 60px;
+            text-align: center;
+            align-content: center;
+            border-radius: 20px;
+            box-shadow: 5px 5px 2px black;
+        }
+        #letsee{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width:700px;
+            background-color: red;
+            font-size: 15px;
+        }
+        .digit{
+            font-size: 100px;
+        }
+        #text{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+    </style>
+    <BODY>
+        <div id="timer">
+            <DIV id="one" >
+                STOPWATCH
+            </DIV>
+        </div>
+        <br>
+        <br><br><br><br><br>
+       <div id="letsee">
+            <div id="hour" class="digit">00</div>
+            <div id="text">hour</div>
+            <div id="min" class="digit">00</div>
+            <div id="text">min</div>
+            <div id="sec" class="digit">00</div>
+            <div id="text">sec</div>
+            <div id="count" class="digit">00</div>
+            <div id="text">count</div>
+       </div>
+       <button id="start">Start</button>
+       <button id="finish">Finish</button>
+       <button id="reset">Reset</button>
+    </BODY>
+    <script src="timer.js"></script>
+</html>

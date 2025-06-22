@@ -1,6 +1,6 @@
  let todos = [];
     const todoInput = document.querySelector("input");
-    const todosContainer = document.getElementById("todos");
+    const todosContainer = document.getElementById("four");
 
     function ADDTODO() {
         const todoText = todoInput.value.trim();
@@ -40,22 +40,32 @@
     }
 
     function TODOCOMPONENT(todo, INDEX) {
-        const span = document.createElement("span");
-        const h3 = document.createElement("h3"); 
+        const div = document.createElement("div");
+        const h8 = document.createElement("h8"); 
         const button = document.createElement("button");
-        h3.style.color="white";
-        h3.innerHTML = todo.title;
+        h8.style.color="white";
+        h8.innerHTML = todo.title;
         
+        button.style.cursor="pointer";
         button.innerHTML = "Delete";
-        button.style.marginLeft = "10px";
+        
+        button.style.height="25px";
+             
+        h8.style.textAlign=  
         button.onclick = function() {
             DELETET(INDEX);
         };
-        // h3.style.paddingLeft = "400px";
-        h3.style.textAlign="left";
-        span.append(h3);
-        span.append(button);
-        return span;
+        
+        div.style.height="40px";
+        div.style.width="360px";
+        div.style.border="black solid 10px";
+        div.style.paddingTop="10px";
+        div.style.display="flex";
+        div.style.flexDirection="row";
+        div.style.justifyContent="space-around";
+        div.append(h8);
+        div.append(button);
+        return div;
     }
 
     function render() {
